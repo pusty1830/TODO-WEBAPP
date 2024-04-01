@@ -1,0 +1,118 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 500px;
+  margin:100px auto;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 9px;
+  background-color:#6699CC ; 
+}
+
+.App h1 {
+  text-align: center;
+  color: black;
+}
+
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; 
+
+}
+
+.form input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  width: 70%;
+  margin: 8px;
+  border-radius: 6px;
+}
+
+.form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff; 
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.form button:hover {
+  background-color: #0056b3; 
+}
+
+
+.listtodo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #f8f9fa; 
+  margin-bottom: 10px;
+  border-radius: 4px;
+  color: black;
+  
+}
+
+.item-content {
+  margin: 0;
+  flex-grow: 1; 
+}
+
+.Button-item,
+.Delete-item {
+  padding: 6px 12px;
+  background-color: #dc3545; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.Button-item:hover,
+.Delete-item:hover {
+  background-color: #c82333; 
+}
+
+
+.update-form {
+  display: flex;
+  align-items: center;
+}
+
+.update-new-input {
+  padding: 8px;
+  font-size: 16px;
+  width: 70%;
+  border-radius: 7px;
+}
+
+.update-new-button {
+  padding: 6px 12px;
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 6px;
+  margin: 2px;
+}
+
+.update-new-button:hover {
+  background-color: #218838; 
+}
+
+@media (max-width: 600px) {
+  .App {
+    width: 90%; 
+  }
+}
